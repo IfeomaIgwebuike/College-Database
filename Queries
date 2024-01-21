@@ -1,4 +1,4 @@
-TASK 1 - write a code to retrieve the names(FIRST AND LAST NAME) AS NAME, STUDENT CLASS, AND STUDENT GPA
+####TASK 1 - write a code to retrieve the names(FIRST AND LAST NAME) AS NAME, STUDENT CLASS, AND STUDENT GPA
 
 CODE:
 SELECT 
@@ -8,7 +8,7 @@ SELECT
 FROM
     student
 
-TASK 2 : Inner Join the Department table on the Student table and update the Dept code CIS to CompSci
+####TASK 2 : Inner Join the Department table on the Student table and update the Dept code CIS to CompSci
 SELECT 
     *
 FROM
@@ -21,7 +21,7 @@ SET
 WHERE
     dept_code = 'CIS''
 
-TASK 3 : Retrieve the course code and title of all courses that have a transfer:
+####TASK 3 : Retrieve the course code and title of all courses that have a transfer:
 FROM
     student
 WHERE
