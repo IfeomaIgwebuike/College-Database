@@ -1,7 +1,18 @@
 TASK 1 - write a code to retrieve the names(FIRST AND LAST NAME) AS NAME, STUDENT CLASS, AND STUDENT GPA
 
 CODE:
-Select CONCAT(stu_fname,' ' ,stu_lname) AS Name , stu_class, stu_gpa
-from student
+SELECT 
+    CONCAT(stu_fname, ' ', stu_lname) AS Name,
+    stu_class,
+    stu_gpa
+FROM
+    student
 
-TASK 2 :
+TASK 2 : Inner Join the Department table on the Student table and update the Dept code CIS to CompSci
+SELECT *
+from student
+INNER JOIN department ON student.dept_code = department.dept_code;
+UPDATE department
+SET dept_code = 'CompSci'
+where dept_code = 'CIS'
+
