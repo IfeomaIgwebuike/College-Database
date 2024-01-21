@@ -1,1 +1,7 @@
+TASK 1 - write a code to retrieve the names(FIRST AND LAST NAME) AS NAME, STUDENT CLASS, AND STUDENT GPA
 
+CODE:
+Select CONCAT(stu_fname,' ' ,stu_lname) AS Name , stu_class, stu_gpa
+from student
+
+TASK 2 :
