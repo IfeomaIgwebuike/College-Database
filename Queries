@@ -9,10 +9,21 @@ FROM
     student
 
 TASK 2 : Inner Join the Department table on the Student table and update the Dept code CIS to CompSci
-SELECT *
-from student
-INNER JOIN department ON student.dept_code = department.dept_code;
-UPDATE department
-SET dept_code = 'CompSci'
-where dept_code = 'CIS'
+SELECT 
+    *
+FROM
+    student
+        INNER JOIN
+    department ON student.dept_code = department.dept_code;
+UPDATE department 
+SET 
+    dept_code = 'CompSci'
+WHERE
+    dept_code = 'CIS''
+
+TASK 3 : Retrieve the course code and title of all courses that have a transfer:
+FROM
+    student
+WHERE
+    stu_transfer = 0
 
