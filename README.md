@@ -1,4 +1,4 @@
-A collection of SQL codes, Database Schema, Table, Data Insertion, Etc
+A collection of SQL codes, Database Schema, Table, Data Insertion, Etc, for a college DataBase.
 
 -- #TASK 1. Create a SCHEMA for your DataBase (Class, Course, Department, Employee, Enroll, Professor, School, Student, 
 	Building and Room) (Test_Schema.SQL)
